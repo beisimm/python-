@@ -16,7 +16,7 @@ def PrimeNumber(num):
                     if num % s == 0:
                         print("这不是一个质数, 他能被%d整除" % s)
                         break
-                print("这是一个质数")
+                    print("这是一个质数")
         else:
             print("请输入大于1的整数")
 
